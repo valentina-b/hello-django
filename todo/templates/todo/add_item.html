@@ -9,6 +9,7 @@
     <h1>Add item:</h1>
 
     <form method="POST" action="add">
+        {% csrf_token %}
         <div>
             <p>
                 <label for="id_name">Name: </label>
@@ -18,7 +19,7 @@
         <div>
             <p>
                 <label for="id_done">Done: </label>
-                <input type="text" name="done" id="id_done">
+                <input type="checkbox" name="done" id="id_done">
             </p>
         </div>
         <div>
