@@ -3,3 +3,5 @@
 ## Learning Django
 
 Creating Django Todo Web App
+
+Generate django secret_key [here.](https://miniwebtool.com/django-secret-key-generator/)
